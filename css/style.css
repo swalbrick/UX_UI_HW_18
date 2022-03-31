@@ -32,3 +32,19 @@
     vertical-align: top;
     padding: 50%;
 }
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+}
+.flexContainer div{
+    width: 33%;
+    margin: 20px;
+    padding: 5px;
+}
+.workGrid{
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea myArea myArea';
+}
+.workGrid div{
+    grid-area: myArea;
+}
